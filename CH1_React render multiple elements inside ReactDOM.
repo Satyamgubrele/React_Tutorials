@@ -1,0 +1,42 @@
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// import './index.css';
+// import App from './App';
+// import reportWebVitals from './reportWebVitals';
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+//reportWebVitals();
+// old--var React = require('react');
+import React from  'react';
+//var ReactDOM= require('react-dom');
+import ReactDOM from  'react-dom';
+//ReactDOM.render('kya dikahna hai','kaha dikhana hai','call back fun');
+// whenever we want to use multiple jsx elemnts then we have to put that elemnt inside any tag.
+//if we dont want to use div tag then we can use [ array of the elemnts ] simply.
+
+// ReactDOM.render(
+//     [
+//     <h1>HELLO WORLD</h1>,<p>This is satyam gubrele</p>  ] 
+// ,
+// document.getElementById("root"));
+/*ReactDOM.render(
+    <div>
+    <h1>HELLO WORLD</h1>,<p>This is satyam gubrele</p> 
+      </div>
+,*/
+// here we use div inside div so we use react fragment so extra div will not create
+   ReactDOM.render(
+    //React.Fragment can be replaced by <> .... </>
+    <React.Fragment>  <h1>Netfliox shows</h1>
+    <p>This is satyam gubrele</p>
+    <h2 color='red'>Satyam Gubrele</h2> </React.Fragment>,
+ document.getElementById("root"));
