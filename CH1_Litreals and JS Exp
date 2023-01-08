@@ -1,0 +1,23 @@
+import React from 'react';
+import  ReactDOM  from 'react-dom';
+const name ="Satyam Gubrele";
+const fname="Ayushi";
+const lname="Dixit";
+console.log(`My name is `)
+ReactDOM.render(
+  <> <h1>hello guys</h1>
+My name is name.<br/>.
+
+{ /*it display name but if we want to display my name then we use {} jsx expression. */}
+My name is {name}<br/>
+
+{/* This is JSX expression. */}
+{/* JS6 Literals */}
+My Name is {fname}{" "}{lname}.
+{/* {Template Literals -->
+We use ` --- ` whenevr we use Literals */}
+<h1>{`my name is ${fname}`}</h1>
+ </> ,document.getElementById("root")
+  
+ 
+);
