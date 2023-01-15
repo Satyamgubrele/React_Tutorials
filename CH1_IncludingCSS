@@ -1,0 +1,48 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import "./index.css";
+
+const img1="https://th.bing.com/th/id/OIP.psjtgiSjq9MLUSXQi_j21gHaFj?pid=ImgDet&rs=1";
+ReactDOM.render(<>
+  <h1  className='c1'>SATYAM GUBRELE</h1>
+ 
+<h3 className='c2'>About:</h3> 
+
+With over [enter number of years] of experience as a sales manager with [xyz], I know what it’s like to go the extra mile and always make my sales quota.
+Knowing what the client needs, getting them product, and driving sales are things I am passionate about.
+My specialties include Excel, Word, scheduling, filing, account management, sales, customer service, working independently, interpersonal skills, great at managing people.
+
+<div className='c4'>
+<img src='https://cdn.pixabay.com/photo/2018/08/18/13/26/interface-3614766_1280.png' alt="not found" />
+<img src={img1} alt="" />
+<img src={img1} alt="" />
+
+</div>
+
+</>,
+document.getElementById('root')
+);
+
+*{margin :0; padding: 0;box-sizing: border-box;}
+
+.c1{
+  font-size: 60px;
+  text-align:center;
+  text-decoration:double;
+  color:red;
+}
+
+.c2{
+  font-size: 40px;
+  text-align: left;
+  
+  color:blue(0, 0, 0);
+}
+.c4{
+
+height: 500px;
+width:500px;
+margin: left;
+
+
+}
